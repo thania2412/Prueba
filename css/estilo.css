@@ -1,0 +1,136 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url(../images/fondoUnad.jpg)no-repeat fixed center;
+	background-size: 99%;
+}
+
+.slider{
+	width: 98%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate;
+}
+
+.slider li{
+width: 100%;
+ list-style: none;
+}
+.slider img{
+	width: 100%;
+	height: 45%;
+}
+
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+/*parrafos introductorios*/
+#contentIntro{
+	position: relative;
+	text-align: center;	
+
+
+}
+.pIntro{
+	padding: 5px;
+	background: #474747;
+	border: 1px color:#000000 solid;
+	margin-right: 2%;
+	position: relative;
+	color:#FFFFFF;
+	width: 30%;
+	height: 60%;
+	left: 20%;
+	text-align: left;
+	float: left;
+
+
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+/*parrafos introductorios*/
+/*estilo de menu nav*/
+
+.nav {
+  position: absolute;
+  top: 10px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+.nav {
+    position: static;
+    width: auto;
+  }
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__link {
+  display: block;
+  padding: 15px;
+  background: #FBA919;
+  text-decoration: none;
+  color: #fff;
+}
+.menu__link:hover, .select {
+  background: white;
+  color: #199EFB;
+}
+.menu {
+    display: flex;
+  }
+.menu__link {
+    background: none;
+    font-size: 20px;
+  }
+.menu__link {
+  display: block;
+  padding: 15px;
+  background: #199EFB;
+  text-decoration: none;
+  color: #fff;
+}
+.menu__link:hover, .select {
+  background: white;
+  color: #199EFB;
+}
+  .select {
+    color: #fff;
+    background: #199EFB;
+  }
+/*estilo de menu nav*/
+
+/*Subtitulo*/
+#subtitulo{
+	text-align: center;
+	color: #FFFFFF;
+}
+/* fin Subtitulo*/
+
